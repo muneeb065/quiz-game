@@ -1,0 +1,46 @@
+print("QUIZ GAME")
+choice = input("Do You Want to Play? ")
+score = 0
+if choice.lower() != "yes":
+    print("Okay")
+    quit()
+print("Lets Start!") 
+
+#question1
+question = input("Which is the National Animal of Pakistan? ")
+if question.lower() == "markhor":
+    print("Correct Answer")
+    score = score +1
+else:
+    print("Wrong Answer")
+
+
+#question2
+question = input("Which is the National Bird of Pakistan? ")
+if question.lower() == "chakor":
+    print("Correct Answer")
+    score = score +1
+
+else:
+    print("Wrong Answer")
+
+#question3
+question = input("Which is the Capital City of Pakistan? ")
+if question.lower() == "islamabad":
+    print("Correct Answer")
+    score = score +1
+
+else:
+    print("Wrong Answer")
+
+#question4
+question = input("According to population which is the largest city of Pakistan? ")
+if question.lower() == "karachi":
+    print("Correct Answer")
+    score = score +1
+
+else:
+    print("Wrong Answer")
+
+print(f"Score: {score}")
+
